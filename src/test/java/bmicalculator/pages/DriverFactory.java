@@ -1,6 +1,6 @@
 package bmicalculator.pages;
 
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 import java.io.File;
 import java.net.URL;
@@ -32,7 +32,7 @@ public class DriverFactory {
 		capabilities.setCapability("app", app.getAbsolutePath());
         //capabilities.setCapability("app", "sauce-storage:BMI_Calculator.apk");
 
-		 driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+		 driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
 //		driver = new RemoteWebDriver(
 //				new URL(
 //						"http://amittaware:9ad259d2-f4c3-4721-ba0d-1516597d2c6d@ondemand.saucelabs.com:80/wd/hub"),
