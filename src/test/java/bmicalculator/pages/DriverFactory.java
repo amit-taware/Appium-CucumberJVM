@@ -21,12 +21,12 @@ public class DriverFactory {
 		File classpathRoot = new File(System.getProperty("user.dir"));
 		File appDir = new File(classpathRoot, "src/test/resources");
 		File app = new File(appDir, "BMI_Calculator.apk");
-		capabilities.setCapability("appium-version", "1.0");
+		capabilities.setCapability("appium-version", "1.3.3");
 		capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("deviceName", "Nexus5");
 		capabilities.setCapability("platformVersion", "4.2");
-		capabilities.setCapability("deviceType", "phone");
+//		capabilities.setCapability("deviceType", "phone");
 //        capabilities.setCapability("app-package", "com.testomatic.android.bmicalculator");
 //        capabilities.setCapability("app-activity", "BMICalculatorActivity");
 		capabilities.setCapability("app", app.getAbsolutePath());
