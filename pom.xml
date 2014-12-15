@@ -63,16 +63,10 @@
 			<artifactId>rest-assured</artifactId>
 			<version>1.7.2</version>
 		</dependency>
-<!-- 		<dependency>
-			<groupId>com.saucelabs</groupId>
-			<artifactId>sauce_junit</artifactId>
-			<version>1.0.19</version>
-		</dependency> -->
-		<dependency>
-			<groupId>com.saucelabs</groupId>
-			<artifactId>saucerest</artifactId>
-			<version>1.0.3</version>
-		</dependency>
+		<!-- <dependency> <groupId>com.saucelabs</groupId> <artifactId>sauce_junit</artifactId> 
+			<version>1.0.19</version> </dependency> -->
+		<!-- <dependency> <groupId>com.saucelabs</groupId> <artifactId>saucerest</artifactId> 
+			<version>1.0.3</version> </dependency> -->
 		<dependency>
 			<groupId>commons-configuration</groupId>
 			<artifactId>commons-configuration</artifactId>
