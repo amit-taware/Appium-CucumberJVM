@@ -2,6 +2,7 @@ package bmicalculator.test.stepdef;
 
 import bmicalculator.appiumtest.AppiumTest;
 import bmicalculator.pages.DriverFactory;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
@@ -16,8 +17,8 @@ public class Hooks {
 	}
 
 	@After
-	public void afterHook() {
-		df.tearDown();
+	public void afterHook(Scenario scenario) {
+		df.tearDown(scenario);
 	}
 
 }
